@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<div
 			id="about"
-			class="h-screen p-6 bg-gray-600 flex justify-center items-center text-center">
+			class="h-screen p-6 lg:p-12 bg-gray-600 flex justify-center items-center text-center">
 			<motion.div
 				class="text-xl w-full flex flex-col justify-center items-center text-center"
 				initial="hidden"

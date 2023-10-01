@@ -25,9 +25,28 @@ export default function Testimonials() {
 					Testimonials
 				</h1>
 				<div class="grid grid-cols-1 gap-6 lg:grid-cols-3 w-full">
-					<Testiomnial />
-					<Testiomnial />
-					<Testiomnial />
+					<Testiomnial
+						img={
+							"https://staticg.sportskeeda.com/editor/2023/01/50009-16736185748780-1920.jpg"
+						}
+						name={"Cbum"}
+						result={"4 x Classic Mr. Olympia"}
+						comment={"Going for 5 x Classic Mr. Olympia"}
+					/>
+					<Testiomnial
+						img={
+							"https://cdn.sportsmanor.com/wp-content/uploads/2023/01/26200351/Untitled-design-3-2-1140x597.jpg"
+						}
+						name={"Arnold Schwarzenegger"}
+						result="7x Mr. Olympia"
+						comment="Get to the choppa!"
+					/>
+					<Testiomnial
+						name="Ronnie Coleman"
+						result="8x Mr Olympia"
+						comment="Yeah buddy!"
+						img="https://staticg.sportskeeda.com/editor/2022/09/72c55-16642722942984-1920.jpg"
+					/>
 				</div>
 			</motion.div>
 		</div>
